@@ -1,8 +1,8 @@
 # Twitter Sentiment Analysis
-This project aims to perform sentiment analysis on a dataset of tweets. The goal is to determine whether each tweet is positive, negative, or neutral.
+This project aims to perform sentiment analysis on a dataset of tweets. The goal is to determine the profanity score in tweets.
 
 # Problem Statement
-Sentiment analysis is an important task in natural language processing. It has various applications, including market research, social media analysis, and customer feedback analysis. The objective of this project is to perform sentiment analysis on a dataset of tweets and determine whether each tweet is positive, negative, or neutral.
+Do read the following blog post before answering the questions https://medium.com/affinityanswers-tech/recruitment-how-not-to-answer-our-take-home-questions-57153d143447 Imagine there is a file full of Twitter tweets by various users and you are provided a set of words that indicates racial slurs. Write a program that can indicate the degree of profanity for each sentence in the file. Write in any programming language (preferably in Python) - make any assumptions, but remember to state them. Please place the code in GitHub with proper documentation and share...
 
 # Implementation
 The project is implemented using Python programming language. The load_stopwords() function loads a set of stop words from the StopWords directory. The load_master_dictionary() function loads a master dictionary of positive and negative words from the MasterDictionary directory. The clean_tweet() function cleans the tweet by removing stop words and converting all words to lowercase. The calculate_polarity() function calculates the polarity and subjectivity scores of the tweet. The analyze_tweets() function reads each tweet from the tweets500.txt file and prints the result of sentiment analysis for each tweet.
